@@ -1,6 +1,6 @@
-@import url(font-awesome.min.css);
+﻿@import url(font-awesome.min.css);
 @import url("http://fonts.useso.com/css?family=Source+Sans+Pro:400,400italic");
-
+@charset'utf-8';
 /* Basic */
 
 	body {
@@ -480,7 +480,7 @@
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: '查看';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
