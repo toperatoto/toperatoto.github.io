@@ -1236,7 +1236,7 @@
 
 	body.is-touch #header {
 		background-attachment: scroll;
-		background-size: auto, cover;
+		background-size: cover;
 	}
 
 	body.is-touch .poptrox-popup .nav-next,
