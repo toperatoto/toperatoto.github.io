@@ -940,7 +940,7 @@
 		text-align: right;
 		top: 0;
 		width: 35%;
-		animation: huerotate 2s infinite linear;
+		animation: huerotate 8s infinite ease-in;
 	}
 
 		
