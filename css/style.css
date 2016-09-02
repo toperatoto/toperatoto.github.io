@@ -928,11 +928,10 @@
 
 	#header {
 		background-color: #04142d;
-		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-attachment: fixed;
+		background-image:url("../images/bg.jpg");
+		background-repeat:	no-repeat;
+		background-size: auto 120%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -944,14 +943,9 @@
 		animation: huerotate 2s infinite linear;
 	}
 
+		
+		
 
-		@-webkit-keyframes "huerotate" {
-		 0% {
-		   -webkit-filter:hue-rotate(0deg);
-		 }
-		 100% {
-		   -webkit-filter:hue-rotate(360deg);
-		 }
 
 		#header strong, #header b {
 			color: #ffffff;
@@ -1250,3 +1244,13 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+
+
+	@-webkit-keyframes huerotate {
+		 0% {
+		   -webkit-filter:hue-rotate(0deg);
+		 }
+		 100% {
+		   -webkit-filter:hue-rotate(360deg);
+		 }
